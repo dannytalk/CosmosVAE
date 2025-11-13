@@ -1,4 +1,12 @@
 # CosmosVAE
-Variational Autoencoder for Cosmos-Web data to understand where Little Red Dots lie in the Latent Space 
+Variational Autoencoder for Cosmos-Web data to understand where Little Red Dots (LRD) lie in the Latent Space 
 
 A link to a subset of the data we plan to use is https://drive.google.com/drive/folders/1oQAhH3gSEgdD4I8O4NnXUke1aPb0D3Yl?usp=sharing
+
+# Data generator
+
+This file is used to take data downloaded from the Cosmos dataset website to create datasets of image cutouts, redshifts, and labels for objects within similar redshift of the LRDs 
+
+# VAE Implementation
+
+This file is used to train and test the VAE with the datasets created from the previous file.
