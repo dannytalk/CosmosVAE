@@ -13,6 +13,10 @@ This file is used to train and test the VAE with the datasets created from the p
 
 Ensure that `TensorFlow` is installed correctly on your device prior to running the notebook. See the TensorFlow installation documentation here: https://www.tensorflow.org/install/pip
 
-## Test model
+## Test model (Best Autoencoder)
 
-This file loads a pre-trained version of the model built in the previous file so that it can be tested on reconstructing the images and redshifts, as well as visualizing the latent space.
+This file loads a pre-trained version of the model built in the previous file so that it can be tested on reconstructing the images and redshifts, as well as visualizing the latent space. 
+
+## VAE Implementation - test model
+
+This file tests the pre-trained VAE we created based on our full implementation to save training time during reproduction.
